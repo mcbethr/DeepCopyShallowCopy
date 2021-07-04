@@ -17,14 +17,11 @@ namespace DeepAndShallowCopy
 
     public class Monster
     {
-        private FurColor _FurColor;
+
         private string _Name;
         private int _Age;
+        private Fur _MonsterFurType;
 
-        public enum FurColor
-        {
-            BLUE
-        }
 
         public string Name
         {
@@ -36,17 +33,17 @@ namespace DeepAndShallowCopy
             get { return _Age; }
             set { _Age = value; }
         }
-        public FurColor MonsterColor
+        public Fur MonsterFurType
         {
-            get { return _FurColor; }
-            set { _FurColor = value; }
+            get { return _MonsterFurType; }
+            set { _MonsterFurType = value; }
         }
 
-        public Monster (string Name, int Age, FurColor furColor)
+        public Monster (string Name, int Age, Fur FurType)
         {
             _Name = Name;
             _Age = Age;
-            _FurColor = furColor;
+            _MonsterFurType = FurType;
 
         }
 
@@ -59,6 +56,35 @@ namespace DeepAndShallowCopy
              return temp;
             
         }
+
+        public Monster DeepCopy()
+        {
+            Fur fur = new Fur(MonsterFurType.FurColor);
+            Monster ClonedMonster = new Monster(this.Name, this.Age, fur);
+  
+            return ClonedMonster;
+
+        }
+
+    }
+
+    public class Fur
+    {
+
+        public enum FUR_COLOR
+        {
+            BLUE,
+            GREEN,
+            RED
+        }
+
+        public FUR_COLOR FurColor { get; set; }
+
+        public Fur(FUR_COLOR FurColor)
+        {
+            this.FurColor = FurColor;
+        }
+
 
     }
 
