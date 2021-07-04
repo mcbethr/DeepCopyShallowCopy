@@ -1,0 +1,4 @@
+C:\code\DeepAndShallowCopy\obj\Debug\netcoreapp3.1\DeepAndShallowCopy.csprojAssemblyReference.cache
+C:\code\DeepAndShallowCopy\obj\Debug\netcoreapp3.1\DeepAndShallowCopy.AssemblyInfoInputs.cache
+C:\code\DeepAndShallowCopy\obj\Debug\netcoreapp3.1\DeepAndShallowCopy.AssemblyInfo.cs
+C:\code\DeepAndShallowCopy\obj\Debug\netcoreapp3.1\DeepAndShallowCopy.csproj.CoreCompileInputs.cache
