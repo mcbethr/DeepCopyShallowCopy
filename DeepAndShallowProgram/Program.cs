@@ -47,24 +47,40 @@ namespace DeepAndShallowCopy
 
         }
 
-
         public Monster ShallowCopy()
         {
-  
-             Monster temp = (Monster)this.MemberwiseClone();
 
-             return temp;
-            
+            Monster temp = (Monster)this.MemberwiseClone();
+
+            return temp;
+
         }
+
 
         public Monster DeepCopy()
         {
-            Fur fur = new Fur(MonsterFurType.FurColor);
+            Fur fur = new Fur(this.MonsterFurType.FurColor);
             Monster ClonedMonster = new Monster(this.Name, this.Age, fur);
-  
+
             return ClonedMonster;
 
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 

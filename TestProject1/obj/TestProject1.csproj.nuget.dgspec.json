@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\code\\DeepCopyShallowCopy\\TestProject1\\TestProject1.csproj": {}
+    "C:\\Code\\DeepCopyShallowCopy\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "C:\\code\\DeepCopyShallowCopy\\DeepAndShallowProgram\\DeepAndShallowCopy.csproj": {
+    "C:\\Code\\DeepCopyShallowCopy\\DeepAndShallowProgram\\DeepAndShallowCopy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\DeepCopyShallowCopy\\DeepAndShallowProgram\\DeepAndShallowCopy.csproj",
+        "projectUniqueName": "C:\\Code\\DeepCopyShallowCopy\\DeepAndShallowProgram\\DeepAndShallowCopy.csproj",
         "projectName": "DeepAndShallowCopy",
-        "projectPath": "C:\\code\\DeepCopyShallowCopy\\DeepAndShallowProgram\\DeepAndShallowCopy.csproj",
-        "packagesPath": "C:\\Users\\ryanm\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\DeepCopyShallowCopy\\DeepAndShallowProgram\\obj\\",
+        "projectPath": "C:\\Code\\DeepCopyShallowCopy\\DeepAndShallowProgram\\DeepAndShallowCopy.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\DeepCopyShallowCopy\\DeepAndShallowProgram\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ryanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,17 +58,17 @@
         }
       }
     },
-    "C:\\code\\DeepCopyShallowCopy\\TestProject1\\TestProject1.csproj": {
+    "C:\\Code\\DeepCopyShallowCopy\\TestProject1\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\DeepCopyShallowCopy\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "C:\\Code\\DeepCopyShallowCopy\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "C:\\code\\DeepCopyShallowCopy\\TestProject1\\TestProject1.csproj",
-        "packagesPath": "C:\\Users\\ryanm\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\DeepCopyShallowCopy\\TestProject1\\obj\\",
+        "projectPath": "C:\\Code\\DeepCopyShallowCopy\\TestProject1\\TestProject1.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\DeepCopyShallowCopy\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ryanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\code\\DeepCopyShallowCopy\\DeepAndShallowProgram\\DeepAndShallowCopy.csproj": {
-                "projectPath": "C:\\code\\DeepCopyShallowCopy\\DeepAndShallowProgram\\DeepAndShallowCopy.csproj"
+              "C:\\Code\\DeepCopyShallowCopy\\DeepAndShallowProgram\\DeepAndShallowCopy.csproj": {
+                "projectPath": "C:\\Code\\DeepCopyShallowCopy\\DeepAndShallowProgram\\DeepAndShallowCopy.csproj"
               }
             }
           }
